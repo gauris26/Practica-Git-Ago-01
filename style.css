@@ -1,12 +1,15 @@
 body {
-  background-color: gray;
+  background-color: #0d1117y;
   padding: 20px;
 }
 h1 {
-  color: whitesmoke;
+  color: #c9d1d9;
   text-decoration: underline;
+  justify-content: center;
 }
 body p {
-  color: white;
-  font-size: 16px;
+  color: #58a6ff;
+  font-size: 18px;
+  line-height: 2.0;
+  justify-content: left;
 }
