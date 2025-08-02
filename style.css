@@ -1,5 +1,6 @@
 body {
   background-color: gray;
+  padding: 20px;
 }
 h1 {
   color: whitesmoke;
@@ -7,4 +8,5 @@ h1 {
 }
 body p {
   color: white;
+  font-size: 16px;
 }
