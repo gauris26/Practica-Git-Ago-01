@@ -1,15 +1,19 @@
 body {
-  background-color: black;
+  background-color: #0d1117;
   padding: 20px;
 }
 h1 {
-  color: red;
-  text-decoration: underline;
+  color: #c9d1d9;
+  background-color: black;
+  padding: 20px;
+   text-decoration: underline;
+  justify-content: center;
 }
 body p {
-  font-size: 16px;
-  color: chocolate;
-  font-size: 28px;
+  color: #58a6ff;
+  font-size: 18px;
+  line-height: 2.0;
+  justify-content: left;
 }
 
 .edwin
