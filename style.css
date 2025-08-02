@@ -2,6 +2,12 @@ body {
   background-color: #0d1117;
   padding: 20px;
 }
+header{
+  display: flex;
+  width:100% ;
+  background-color: #58a6ff;
+  background-size: cover;
+}
 h1 {
   color: #c9d1d9;
   background-color: black;
@@ -18,8 +24,10 @@ body p {
 
 .edwin
 {
+display: flex;
  color: cyan;
  border-style: dashed;
  border-radius: 50px;
- padding-left: 20%;
+ /* padding-left: 20%; */
+ justify-content: center;
 }
