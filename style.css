@@ -1,8 +1,9 @@
 body {
-  background-color: black;
+  background-color: gray;
 }
 h1 {
-  color: coral;
+  color: whitesmoke;
+  text-decoration: underline;
 }
 body p {
   color: white;
