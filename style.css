@@ -1,12 +1,12 @@
 body {
-  background-color: gray;
+  background-color: rgb(158, 18, 18);
   padding: 20px;
 }
 h1 {
-  color: whitesmoke;
+  color: rgb(24, 227, 41);
   text-decoration: underline;
 }
 body p {
-  color: white;
+  color: rgb(16, 13, 13);
   font-size: 16px;
 }
