@@ -1,36 +1,72 @@
+/* Reset básico para eliminar márgenes y paddings por defecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: rgb(158, 18, 18);
-  padding: 20px;
-}
-header{
-  display: flex;
-  width:100% ;
-  background-color: #58a6ff;
-  background-size: cover;
-}
-h1 {
-  color: rgb(24, 227, 41);
-  text-decoration: underline;
-}
-body p {
-  color: #58a6ff;
-  font-size: 18px;
-  line-height: 2.0;
-  justify-content: left;
-}
-h1 {
+  background-color: #1e1e1e; /* Fondo oscuro elegante */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #c9d1d9;
-  background-color: black;
-  padding: 20px;
-   text-decoration: underline;
-  justify-content: center;
+  padding: 30px;
+  line-height: 1.6;
 }
-.edwin
-{
-display: flex;
- color: cyan;
- border-style: dashed;
- border-radius: 50px;
- /* padding-left: 20%; */
- justify-content: center;
+
+/* Encabezado con imagen */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d1117;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(88, 166, 255, 0.5);
+}
+
+header img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Título principal */
+h1 {
+  color: #58a6ff;
+  background-color: #161b22;
+  padding: 15px 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Párrafos */
+p {
+  color: #adbac7;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Lista de nombres */
+ol {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+ol li {
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #e6edf3;
+}
+
+/* Estilo especial para Edwin */
+.edwin {
+  color: #00ffff;
+  border: 2px dashed #00ffff;
+  border-radius: 50px;
+  padding: 8px 15px;
+  background-color: #0d1117;
+  text-align: center;
+  max-width: fit-content;
 }
